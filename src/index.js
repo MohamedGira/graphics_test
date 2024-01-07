@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 function Test(){
   
 useEffect(() => {
-  const rendnder = new Three.WebGL1Renderer();
+  const rendnder = new Three.WebGLRenderer();
   rendnder.setSize(window.innerWidth, window.innerHeight);
   document.body.append(rendnder.domElement);
 
