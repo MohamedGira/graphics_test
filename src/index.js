@@ -860,7 +860,7 @@ useEffect(() => {
       revealBall();
       for (let elem of container_elems)
       container.appendChild(elem);
-    }, 10000);
+    }, 30000);
     
   });
 }, []);
@@ -869,7 +869,7 @@ return <></>;
 root.render(
   <body>
   <div id="container"></div>
-  <div id="loading"><p>Loading...</p></div>
+  <div id="loading"><p>Loading... in might take a while</p></div>
   <div id="playcontainer"><button id="playButton">Start</button></div>
   <div id="guessResult" class="guess-result"></div>
   <Test/>
